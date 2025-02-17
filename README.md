@@ -1,4 +1,7 @@
 # ReactJS Notes
+This is basically notes of React that i have leanrned react by making projects so feel free to study. I have study ReactJS from [Hitesh Sir](https://github.com/hiteshchoudhary) who taught me many things in the education and also in life.
+
+---
 
 ## Video 1: Introduction to React JS
 - React is a JS library created by Facebook.
@@ -27,7 +30,7 @@
 - Learning how React files interact and function within a project.
 - Basically, Studying React Project Workflow.
 
-- 01vitereact Project:- [Repository](./01vitereact/src)
+- ***01vitereact Project:-*** [Repository](./01vitereact/src)
 
 ---
 
@@ -76,7 +79,7 @@ const mainContainer = document.querySelector('#root');
 customRender(reactElement, mainContainer);
 ```
 
-- customReact Project:- [Repository](./customReact/customReact.js)
+- ***customReact Project:-*** [Repository](./customReact/customReact.js)
 
 ---
 
@@ -92,7 +95,7 @@ customRender(reactElement, mainContainer);
   - Allows managing state within a functional component.
   - It lets you declare a state variable and update it within a function component without using a class.
 
-- 02counter Project:- [Repository](./02counter/src)
+- ***02counter Project:-*** [Repository](./02counter/src)
 
 ---
 
@@ -115,7 +118,7 @@ customRender(reactElement, mainContainer);
     - *abort work if it's no longer needed.*
 - In one sense, that's what a fiber is. A *fiber* represents a unit of work.
 
-📖 More info: [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)
+***📖 More info:*** [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)
 
 ---
 
@@ -123,7 +126,7 @@ customRender(reactElement, mainContainer);
 - **Props (short for Properties)** are used to pass data from one component to another, typically from a parent component to a child component.
 - Props allow components to be dynamic and reusable by enabling them to receive different inputs and behave accordingly.
 
-- 03tailwindprops Project:- [Repository](./03tailwindprops/src)
+- ***03tailwindprops Project:-*** [Repository](./03tailwindprops/src)
 
 ---
 
@@ -161,7 +164,7 @@ function App() {
     style={{ backgroundColor: "red" }}
     >Red</button>
 ```
-- 04bgChanger Project:- [Repository](./04bgChanger/src)
+- ***04bgChanger Project:-*** [Repository](./04bgChanger/src)
 
 ---
 
@@ -170,7 +173,7 @@ function App() {
 - **useEffect**: `useEffect(<function>, <dependency>)` allows you to perform side effects in your components. The second argument is optional. It runs after the render and can re-run when dependencies change.
 - **useRef**: allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
 - **useCallback**:  returns a memoized callback function. Think of memoization as caching a value so that it does not need to be recalculated. This allows us to isolate resource intensive functions so that they will not automatically run on every render.The useCallback Hook only runs when one of its dependencies update.
-- 05passwordGenerator Project:- [Repository](./05passwordGenerator/src)
+- ***05passwordGenerator Project:-*** [Repository](./05passwordGenerator/src)
 
 ---
 
@@ -209,7 +212,7 @@ function useCurrencyInfo(currency) {
 
 export default useCurrencyInfo;
 ```
-- 06currencyConverter Project:- [Repository](./06currencyConverter/src)
+- ***06currencyConverter Project:-*** [Repository](./06currencyConverter/src)
 
 ---
 
@@ -235,7 +238,7 @@ To use React Router, install the package using npm or yarn:
 - `Suspense & lazy()` - Optimize performance with lazy loading
 - *Protected Routes* - Restrict access based on authentication
 
-- 07reactRouter Project:- [Repository](./07reactRouter/src)
+- ***07reactRouter Project:-*** [Repository](./07reactRouter/src)
 
 ---
 
@@ -255,8 +258,8 @@ To use React Router, install the package using npm or yarn:
 - The **Provider** acts as a parent it passes the state to its children.
 - The **Consumer** uses the state that has been passed.
 
-- 08miniContext Project:- [Repository](./08miniContext/src)
-- 09themeswitcher Project:- [Repository](./09themeswitcher/src)
+- ***08miniContext Project:-*** [Repository](./08miniContext/src)
+- ***09themeswitcher Project:-*** [Repository](./09themeswitcher/src)
 
 ---
 
@@ -273,7 +276,7 @@ To use React Router, install the package using npm or yarn:
     - **Persistent Data** - Local Storage ensures data is not lost when the page reloads.
     - **Avoid Prop Drilling** - Pass data through context instead of props.
 
-- 10todocontextLocal:- [Repository](./10todocontextLocal/src)
+- ***10todocontextLocal:-*** [Repository](./10todocontextLocal/src)
 
 --- 
 
@@ -319,6 +322,6 @@ If you have existing react app then run the two commands:
 - `npm install @reduxjs/toolkit`
 - `npm install react-redux`
 
-- 11reduxToolkit:- [Repository](./11reduxToolkit/src)
+- ***11reduxToolkit:-*** [Repository](./11reduxToolkit/src)
 
 ---
